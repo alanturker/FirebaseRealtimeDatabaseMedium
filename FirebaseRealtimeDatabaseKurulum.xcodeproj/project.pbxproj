@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5683A593272814E0007514C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5683A592272814E0007514C9 /* AppDelegate.swift */; };
+		5683A595272814E0007514C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5683A594272814E0007514C9 /* SceneDelegate.swift */; };
+		5683A597272814E0007514C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5683A596272814E0007514C9 /* ViewController.swift */; };
+		5683A59A272814E0007514C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5683A598272814E0007514C9 /* Main.storyboard */; };
+		5683A59C272814E4007514C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5683A59B272814E4007514C9 /* Assets.xcassets */; };
+		5683A59F272814E4007514C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5683A59D272814E4007514C9 /* LaunchScreen.storyboard */; };
+		5683A5A92729934E007514C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5683A5A82729934E007514C9 /* GoogleService-Info.plist */; };
+		9E61E03A69FE783C90DA67E8 /* Pods_FirebaseRealtimeDatabaseKurulum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B352EED9943FFBD02CCFA4 /* Pods_FirebaseRealtimeDatabaseKurulum.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		066473B160C36BB883811426 /* Pods-FirebaseRealtimeDatabaseKurulum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseRealtimeDatabaseKurulum.release.xcconfig"; path = "Target Support Files/Pods-FirebaseRealtimeDatabaseKurulum/Pods-FirebaseRealtimeDatabaseKurulum.release.xcconfig"; sourceTree = "<group>"; };
+		5683A58F272814E0007514C9 /* FirebaseRealtimeDatabaseKurulum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseRealtimeDatabaseKurulum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5683A592272814E0007514C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5683A594272814E0007514C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5683A596272814E0007514C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5683A599272814E0007514C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5683A59B272814E4007514C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5683A59E272814E4007514C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5683A5A0272814E4007514C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5683A5A82729934E007514C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B3B352EED9943FFBD02CCFA4 /* Pods_FirebaseRealtimeDatabaseKurulum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseRealtimeDatabaseKurulum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A5973C5FD1A14D349A8EFF /* Pods-FirebaseRealtimeDatabaseKurulum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseRealtimeDatabaseKurulum.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseRealtimeDatabaseKurulum/Pods-FirebaseRealtimeDatabaseKurulum.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5683A58C272814E0007514C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E61E03A69FE783C90DA67E8 /* Pods_FirebaseRealtimeDatabaseKurulum.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5683A586272814E0007514C9 = {
+			isa = PBXGroup;
+			children = (
+				5683A591272814E0007514C9 /* FirebaseRealtimeDatabaseKurulum */,
+				5683A590272814E0007514C9 /* Products */,
+				F59853BFD5C56A8E59AB0B48 /* Pods */,
+				9F5941AF525E44552CAD7ED0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5683A590272814E0007514C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5683A58F272814E0007514C9 /* FirebaseRealtimeDatabaseKurulum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5683A591272814E0007514C9 /* FirebaseRealtimeDatabaseKurulum */ = {
+			isa = PBXGroup;
+			children = (
+				5683A592272814E0007514C9 /* AppDelegate.swift */,
+				5683A594272814E0007514C9 /* SceneDelegate.swift */,
+				5683A596272814E0007514C9 /* ViewController.swift */,
+				5683A598272814E0007514C9 /* Main.storyboard */,
+				5683A59B272814E4007514C9 /* Assets.xcassets */,
+				5683A59D272814E4007514C9 /* LaunchScreen.storyboard */,
+				5683A5A0272814E4007514C9 /* Info.plist */,
+				5683A5A82729934E007514C9 /* GoogleService-Info.plist */,
+			);
+			path = FirebaseRealtimeDatabaseKurulum;
+			sourceTree = "<group>";
+		};
+		9F5941AF525E44552CAD7ED0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3B352EED9943FFBD02CCFA4 /* Pods_FirebaseRealtimeDatabaseKurulum.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F59853BFD5C56A8E59AB0B48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0A5973C5FD1A14D349A8EFF /* Pods-FirebaseRealtimeDatabaseKurulum.debug.xcconfig */,
+				066473B160C36BB883811426 /* Pods-FirebaseRealtimeDatabaseKurulum.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5683A58E272814E0007514C9 /* FirebaseRealtimeDatabaseKurulum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5683A5A3272814E4007514C9 /* Build configuration list for PBXNativeTarget "FirebaseRealtimeDatabaseKurulum" */;
+			buildPhases = (
+				3BD94D64A7D0DA1024652F71 /* [CP] Check Pods Manifest.lock */,
+				5683A58B272814E0007514C9 /* Sources */,
+				5683A58C272814E0007514C9 /* Frameworks */,
+				5683A58D272814E0007514C9 /* Resources */,
+				ABCE636ADB54BB439E58A847 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirebaseRealtimeDatabaseKurulum;
+			productName = FirebaseRealtimeDatabaseKurulum;
+			productReference = 5683A58F272814E0007514C9 /* FirebaseRealtimeDatabaseKurulum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5683A587272814E0007514C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5683A58E272814E0007514C9 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 5683A58A272814E0007514C9 /* Build configuration list for PBXProject "FirebaseRealtimeDatabaseKurulum" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5683A586272814E0007514C9;
+			productRefGroup = 5683A590272814E0007514C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5683A58E272814E0007514C9 /* FirebaseRealtimeDatabaseKurulum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5683A58D272814E0007514C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5683A59F272814E4007514C9 /* LaunchScreen.storyboard in Resources */,
+				5683A5A92729934E007514C9 /* GoogleService-Info.plist in Resources */,
+				5683A59C272814E4007514C9 /* Assets.xcassets in Resources */,
+				5683A59A272814E0007514C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BD94D64A7D0DA1024652F71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseRealtimeDatabaseKurulum-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABCE636ADB54BB439E58A847 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseRealtimeDatabaseKurulum/Pods-FirebaseRealtimeDatabaseKurulum-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseRealtimeDatabaseKurulum/Pods-FirebaseRealtimeDatabaseKurulum-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebaseRealtimeDatabaseKurulum/Pods-FirebaseRealtimeDatabaseKurulum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5683A58B272814E0007514C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5683A597272814E0007514C9 /* ViewController.swift in Sources */,
+				5683A593272814E0007514C9 /* AppDelegate.swift in Sources */,
+				5683A595272814E0007514C9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5683A598272814E0007514C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5683A599272814E0007514C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5683A59D272814E4007514C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5683A59E272814E4007514C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5683A5A1272814E4007514C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5683A5A2272814E4007514C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5683A5A4272814E4007514C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0A5973C5FD1A14D349A8EFF /* Pods-FirebaseRealtimeDatabaseKurulum.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FirebaseRealtimeDatabaseKurulum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.turkeralan.FirebaseRealtimeDatabaseKurulum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5683A5A5272814E4007514C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 066473B160C36BB883811426 /* Pods-FirebaseRealtimeDatabaseKurulum.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FirebaseRealtimeDatabaseKurulum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.turkeralan.FirebaseRealtimeDatabaseKurulum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5683A58A272814E0007514C9 /* Build configuration list for PBXProject "FirebaseRealtimeDatabaseKurulum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5683A5A1272814E4007514C9 /* Debug */,
+				5683A5A2272814E4007514C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5683A5A3272814E4007514C9 /* Build configuration list for PBXNativeTarget "FirebaseRealtimeDatabaseKurulum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5683A5A4272814E4007514C9 /* Debug */,
+				5683A5A5272814E4007514C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5683A587272814E0007514C9 /* Project object */;
+}
